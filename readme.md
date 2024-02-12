@@ -1,1 +1,1 @@
-List of scripts used for running excel reports from .xlsx file(s)
+List of script used for running excel report(s) from .xlsx file(s)
