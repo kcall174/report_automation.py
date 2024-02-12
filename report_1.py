@@ -46,4 +46,4 @@ if cell.column_letter in ['K', 'L', 'M']:
 cell.number_format = '"$"#,##0.00'
 
 # Save the modified workbook
-wb.save(C:\\Users\\USER\\...\\report_1.xlsx)
+wb.save('C:\\Users\\USER\\...\\report_1.xlsx')
