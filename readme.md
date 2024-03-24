@@ -5,4 +5,4 @@ Python script used for running Excel an report from .xlsx file(s)
        a. Open Python interpretor and type <code>pip install openpyxl</code>
 <img><p><img width="245" alt="Screenshot 2024-03-24 at 1 22 47 AM" src="https://github.com/kcall174/report_automation.py/assets/29552650/c1d34bf1-b9bc-4edb-8137-7f58d4e013b6"></img></img>
 
-
+2. The sample code I've provided is simply what I was doing to move columns around and get alignments down based on the report(s) I needed to run. I highly recommend spending some time reading the documentation of Openpyxl to accodimate your specific needs at the following: https://openpyxl.readthedocs.io/en/stable/
