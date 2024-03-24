@@ -1,8 +1,8 @@
 Python script used for running Excel an report from .xlsx file(s)
 <h1> Starting Out: </h1>
-1. Download openpyxl via pip: https://pypi.org/project/openpyxl/<p>
-2. Open Python interpretor and type <code>pip install openpyxl</code>
-3. The sample code I've provided is simply what I was doing to move columns around and get alignments down based on the report(s) I needed to run. I highly recommend spending some time reading the documentation of Openpyxl to accodimate your specific needs at the following: https://openpyxl.readthedocs.io/en/stable/
+1. Download openpyxl via pip: https://pypi.org/project/openpyxl/<p></p>
+2. Open Python interpretor and type <code>pip install openpyxl</code><p></p>
+3. The sample code I've provided is simply what I was doing to move columns around and get alignments down based on the report(s) I needed to run. I highly recommend spending some time reading the documentation of Openpyxl to accodimate your specific needs at the following: https://openpyxl.readthedocs.io/en/stable/ <p></p>
 4. The rest will be up to the user to decide, but the easiest way to run this script is by inserting it into an IDE like Visual Studio Code or PyCharm.
 
 
