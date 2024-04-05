@@ -29,39 +29,39 @@ sheet.title = 'report_1'
 col_q = [cell.value for cell in sheet['Q']]
 sheet.insert_cols(1)  # Insert a new column at position 1 (A)
 for idx, value in enumerate(col_q, start=1):
-sheet.cell(row=idx, column=1, value=value)
+  sheet.cell(row=idx, column=1, value=value)
 sheet.delete_cols(18)  # Delete the original column Q (now at position 18)
 ```
 
 # Wrap text for all cells except for the first row
 ```
 for row in sheet.iter_rows(min_row=2):
-for cell in row:
-cell.alignment = Alignment(wrap_text=True)
+  for cell in row:
+    cell.alignment = Alignment(wrap_text=True)
 ```
 
 # Center align columns excluding the first row
 ```
 for row in sheet.iter_rows(min_row=2):
-for cell in row:
-if cell.column_letter in ['D', 'E', 'F', 'I', 'M', 'N', 'J']:
-cell.alignment = Alignment(horizontal='center')
+  for cell in row:
+    if cell.column_letter in ['D', 'E', 'F', 'I', 'M', 'N', 'J']:
+      cell.alignment = Alignment(horizontal='center')
 ```
 
 # Add commas for columns G and H excluding the first row
 ```
 for row in sheet.iter_rows(min_row=2):
-for cell in row:
-if cell.column_letter in ['G', 'H', 'I']:
-cell.number_format = '#,##0'
+  for cell in row:
+    if cell.column_letter in ['G', 'H', 'I']:
+      cell.number_format = '#,##0'
 ```
 
 # Format columns J, K, and L as currency excluding the first row
 ```
 for row in sheet.iter_rows(min_row=2):
-for cell in row:
-if cell.column_letter in ['K', 'L', 'M']:
-cell.number_format = '"$"#,##0.00'
+  for cell in row:
+    if cell.column_letter in ['K', 'L', 'M']:
+      cell.number_format = '"$"#,##0.00'
 ```
 
 # Save the modified workbook
