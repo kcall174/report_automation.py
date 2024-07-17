@@ -1,4 +1,4 @@
-Python script used for running Excel an report from .xlsx file(s)
+Python script used for running Excel report from .xlsx file(s)
 <h1> Starting Out: </h1>
 1. Download openpyxl via pip: https://pypi.org/project/openpyxl/<p></p>
 2. Open Python interpretor and type <code>pip install openpyxl</code><p></p>
